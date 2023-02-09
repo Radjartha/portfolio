@@ -9,7 +9,7 @@ module.exports = {
     extend: {
 
       backgroundImage: {
-        'header1': "url('/img/Header1.png')"
+        'header1': "url('img/Header1.png')"
       },
 
       colors: {
