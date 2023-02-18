@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <link href="dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="dist/stylenavm.css" media="">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="shortcut icon" type="image/jpg" href="img/icon.png"/>
     <meta charset="UTF-8">
     
@@ -11,6 +13,7 @@
 </head>
 <body>
     <!-- Navbar -->
+    <div class="hidden md:contents">
     <div class="container mx-auto">
     <nav class="flex justify-between items-center">
         <div>
@@ -24,8 +27,56 @@
     </ul>
     </nav>
     </div>
+    </div>
+    <!-- Navbar Mobile Ver -->
+    <div class="contents md:hidden">
+            <header class="header1 color1" id="header">
+                <nav class="nav1 container">
+                    <a href="#" class="nav__logo"></a>
+                    <div class="nav__menu" id="nav-menu">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="index.html" class="nav__link active-link">
+                                    <i class='bx bx-home-alt nav__icon'></i>
+                                    <span class="nav__name">Home</span>
+                                </a>
+                            </li>
+                            
+                            <li class="nav__item">
+                                <a href="info.html" class="nav__link">
+                                    <i class='bx bx-user nav__icon'></i>
+                                    <span class="nav__name">About</span>
+                                </a>
+                            </li>
+    
+                            <li class="nav__item">
+                                <a href="#portfolio" class="nav__link">
+                                    <i class='bx bx-briefcase-alt nav__icon'></i>
+                                    <span class="nav__name">Portfolio</span>
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#skills" class="nav__link">
+                                    <i class='bx bx-book-alt nav__icon'></i>
+                                    <span class="nav__name">Skills</span>
+                                </a>
+                            </li>
+    
+                            <li class="nav__item">
+                                <a href="#contactme" class="nav__link">
+                                    <i class='bx bx-message-square-detail nav__icon'></i>
+                                    <span class="nav__name">Contactme</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+    </div>
+
     <!-- Header -->
-    <section class="md:flex bg-slate-800 text-white bg-center bg-cover bg-blend-overlay bg-black/30 " style="background-image: url('img/Header1.png')">
+    <section class="md:flex bg-slate-800 text-white bg-center bg-cover bg-blend-overlay bg-black/30 " style="background-image: url('img/Header1.png')">  
         <!-- Hero Section Content -->
         <div class="flex-1 flex items-center">
           <div class="text-center mx-auto pt-20 pb-20">
