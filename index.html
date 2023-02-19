@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Radjartha</title>
 </head>
-<body>
+<body class="">
     <!-- Navbar -->
         <div class="hidden md:contents"> 
         <div class="container mx-auto">
@@ -76,7 +76,7 @@
             </header>
         </div>
         
-    <!-- Header -->
+    <!-- Header --> 
         <section class="md:flex bg-slate-800 text-white bg-center bg-cover bg-blend-overlay bg-black/30 " style="background-image: url('img/Header1.png')">
         <!-- Hero Section Content -->
         <div class="flex-1 flex items-center">
@@ -143,8 +143,7 @@
                     </div>
                 </div>
             </div>
-        </Section>
-        
+        </Section>      
         <!-- Preview -->
         <Section class="pt-36 pb-36">
             <div class="container justify-center">
@@ -153,13 +152,35 @@
             </div>
         </Section>
         <!-- Contact Support -->
-        <section class="pt-36 pb-36">
+        <section id="contact" class="pt-36 pb-36">
             <div class="container">
-                <div class="flex flex-wrap">
-                    <div class="w-full self-end px-4 lg:w-1/2">
-                        <img src="img/KitimaruPixel.gif" alt="" class="max-w-full mx-auto" style="max-width:50%;">                       
-                    </div>       
+                <div class="w-full px-4">
+                    <div class="max-w-xl mx-auto text-center mb-16">
+                        <h4 class="font-semibold text-slate-900">Any Question?</h4>
+                        <h2 class="font-bold text-crimson text-3xl mb-4 sm:text-4xl lg:text-5xl">Contact me</h2>
+                        <p class="font-meduium text-md text-slate-900">If You Have Any Question / Suggestion for New Update!</p>
+                    </div>
                 </div>
+                
+                <form action="">
+                <div class="w-full lg:w-2/3 lg:mx-auto">
+                    <div class="w-full px-4 mb-5">
+                    <label for="name" class="text-base font-bold text-crimson">Nama</label>
+                    <input type="text" name="" id="name" class="w-full bg-black/30 text-dark p-3 rounded-md focus:outline-none">
+                    </div>
+                    <div class="w-full px-4 mb-5">
+                    <label for="email" class="text-base font-bold text-crimson">Email</label>
+                    <input type="text" name="" id="email" class="w-full bg-black/30 text-dark p-3 rounded-md focus:outline-none">
+                    </div>
+                    <div class="w-full px-4 mb-5">
+                        <label for="message" class="text-base font-bold text-crimson">Pesan</label>
+                        <textarea type="message" name="" id="email" class="w-full bg-black/30 text-dark p-3 rounded-md focus:outline-none h-32"></textarea>   
+                    </div>
+                    <div class="w-full px-4">
+                        <button class="text-base font-semibold text-white bg-crimson py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transtion duration-500">Send</button>
+                    </div>
+                </div>
+                </form>
             </div>
         </section>
 
