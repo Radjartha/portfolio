@@ -1,3 +1,5 @@
+/* Font */
+
 /*=============== VARIABLES CSS ===============*/
 
 .color1{
@@ -50,6 +52,8 @@
   z-index: var(--z-fixed);
   transition: .4s;
 }
+
+
 
 /*=============== NAV ===============*/
 .nav1 {

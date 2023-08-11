@@ -12,13 +12,23 @@ module.exports = {
       backgroundImage: {
         'header1': "url('img/Header1.png')"
       },
-
+      fontSize: {
+        uxl:['200px'],
+        txl:['150px'],
+        lxl:['130px'],
+      },
+      fontFamily: {
+        Apotek : ['Apotek'],
+      },
       colors: {
-        crimson : '#C85F5C'
+        crimson : '#C85F5C',
+        yellowb : '#f4d300',
       },
       screen: {
         '2xl':'1320px'
+
       },
+
     },
   },
   plugins: [],
