@@ -18,7 +18,7 @@ module.exports = {
         lxl:['130px'],
       },
       fontFamily: {
-        Apotek : ['Apotek'],
+        judul: ['Teko'],
       },
       colors: {
         crimson : '#C85F5C',
