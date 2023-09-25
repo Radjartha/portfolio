@@ -25,8 +25,7 @@ module.exports = {
         yellowb : '#f4d300',
       },
       screen: {
-        '2xl':'1320px'
-
+        '2xl':'1320px',
       },
 
     },

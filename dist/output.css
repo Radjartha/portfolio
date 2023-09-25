@@ -1000,16 +1000,12 @@ video {
   text-align: justify;
 }
 
-.font-\[Teko\]{
+.font-judul{
   font-family: Teko;
 }
 
 .font-sans{
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-.font-judul{
-  font-family: Teko;
 }
 
 .text-2xl{
@@ -1236,6 +1232,18 @@ video {
   outline-offset: 2px;
 }
 
+@media (max-width: 1200px){
+  .max-\[1200px\]\:hidden{
+    display: none;
+  }
+}
+
+@media (max-width: 1022px){
+  .max-\[1022px\]\:hidden{
+    display: none;
+  }
+}
+
 @media (min-width: 640px){
   .sm\:flex-row{
     flex-direction: row;
@@ -1303,6 +1311,16 @@ video {
 
   .md\:w-5\/12{
     width: 41.666667%;
+  }
+}
+
+@media (min-width: 1022px){
+  .min-\[1022px\]\:contents{
+    display: contents;
+  }
+
+  .min-\[1022px\]\:hidden{
+    display: none;
   }
 }
 
@@ -1380,6 +1398,12 @@ video {
 
   .lg\:text-txl{
     font-size: 150px;
+  }
+}
+
+@media (min-width: 1200px){
+  .min-\[1200px\]\:hidden{
+    display: none;
   }
 }
 
